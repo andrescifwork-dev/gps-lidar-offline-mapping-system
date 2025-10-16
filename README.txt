@@ -1,28 +1,27 @@
-# Sistema de Mapeo Offline con Detección de Obstáculos – GPS + LiDAR
+# Offline Mapping System with Obstacle Detection – GPS + LiDAR
 
-Este proyecto implementa un sistema embebido capaz de renderizar mapas sin conexión a internet utilizando datos de OpenStreetMap y un módulo GPS. Además, integra un sensor de distancia LiDAR para detectar obstáculos en tiempo real y actualizar el mapa dinámicamente. Si se detecta una posible colisión, el sistema activa una alarma sonora.
+This project implements an embedded system capable of rendering maps without an internet connection using OpenStreetMap data and a GPS module. It also integrates a LiDAR distance sensor to detect obstacles in real time and dynamically update the map. If a potential collision is detected, the system triggers an audible alarm.
 
-## 🧠 Características principales
+## 🧠 Key Features
 
-- 📍 Renderizado de mapas offline con OpenStreetMap
-- 📡 Lectura de coordenadas en tiempo real vía módulo GPS
-- 📏 Detección de obstáculos con sensor LiDAR
-- 🔔 Alerta sonora ante proximidad crítica
-- 🗺️ Actualización dinámica del mapa en pantalla
+- 📍 Offline map rendering using OpenStreetMap
+- 📡 Real-time coordinate tracking via GPS module
+- 📏 Obstacle detection using LiDAR sensor
+- 🔔 Audible alert when approaching critical proximity
+- 🗺️ Dynamic map updates on screen
 
-## 🔧 Tecnologías y herramientas
+## 🔧 Technologies and Tools
 
-- Microcontrolador: ESP32 / STM32 (según versión)
+- Microcontroller: ESP32 / STM32 (depending on version)
 - GPS: NEO-6M
-- Sensor de distancia: LiDAR Lite v3
-- Librerías: TinyGPS++, Adafruit LiDAR, OSM parser
-- Lenguaje: Python
-- Visualización: pantalla portátil HDMI
+- Distance sensor: LiDAR Lite v3
+- Libraries: TinyGPS++, Adafruit LiDAR, OSM parser
+- Language: Python
+- Display: Portable HDMI screen
 
-## 📁 Estructura del código
+## 📁 Code Structure
 
-- `src/`: Código fuente del sistema
-- `img/`: Imágenes del prototipo y capturas de pantalla
+- `src/`: System source code
+- `img/`: Prototype photos and screenshots
 
-
-¿Tienes dudas o sugerencias? ¡Estoy abierto a colaboraciones!
+Have questions or suggestions? I'm open to collaborations!
