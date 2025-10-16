@@ -24,4 +24,7 @@ This project implements an embedded system capable of rendering maps without an 
 - `src/`: System source code
 - `img/`: Prototype photos and screenshots
 
+You have to download your own Open Street Map file, as it is rendered by file, not through the cloud like Maps.
+
 Have questions or suggestions? I'm open to collaborations!
+
