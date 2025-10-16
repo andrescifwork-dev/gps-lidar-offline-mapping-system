@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "buildings",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 316836367, "building": "church", "name": "iglesia" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.6199701, 19.3751115 ], [ -97.6196027, 19.3749041 ], [ -97.6194149, 19.3751976 ], [ -97.6197985, 19.3754152 ], [ -97.6199701, 19.3751115 ] ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 463972189, "building": "yes", "name": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.6273076, 19.3998601 ], [ -97.6270775, 19.3995664 ], [ -97.6267307, 19.4000337 ], [ -97.6270669, 19.4002374 ], [ -97.6273076, 19.3998601 ] ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 463972187, "building": "yes", "name": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.6278732, 19.402279 ], [ -97.6273935, 19.4017652 ], [ -97.6272675, 19.4019914 ], [ -97.6271902, 19.4022253 ], [ -97.6272106, 19.4024363 ], [ -97.6271658, 19.4026817 ], [ -97.6273, 19.4028159 ], [ -97.6278732, 19.402279 ] ] ] } }
+]
+}
